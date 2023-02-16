@@ -11,3 +11,4 @@ int main(void)
 	prntf("Size of a long long int: %i byte(s)\n", sizeof(long long int));
 	prntf("Size of a float: %i byte(s)\n", sizeof(float));
 	return (0);
+}
