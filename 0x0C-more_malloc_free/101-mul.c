@@ -35,7 +35,7 @@ void _is_zero(char *argv[])
 }
 
 /**
- *  _initialize_array - set memery to zero in a new array
+ * _initialize_array - set memery to zero in a new array
  * @ar: char array.
  * @lar: length of the char array.
  *
@@ -43,12 +43,12 @@ void _is_zero(char *argv[])
  */
 char *_initialize_array(char *ar, int lar)
 {
-		int i = 0;
+	int i = 0;
 
-		for (i = 0; i < lar; i++)
-			ar[i] = '0';
-		ar[lar] = '\0';
-		return (ar);
+	for (i = 0; i < lar; i++)
+		ar[i] = '0';
+	ar[lar] = '\0';
+	return (ar);
 }
 
 /**
